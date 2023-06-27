@@ -1,7 +1,8 @@
 import pytube
 import os
 from time import sleep
-import sys
+import sy
+#Checking the number of arguments to determine the functionalitys
 if(len(sys.argv) > 1):
     print((sys.argv[1]))
     url = sys.argv[1]
@@ -11,7 +12,7 @@ else:
     scan = input('Enter the query')
     array = pytube.Search(scan)
     url = array.results[0].watch_url
-
+#retrieving the file and downloading it in current folder, then converting it
 pytube.YouTube(url).streams.get_by_itag('140').download(filename=(scan+".mp4"))
 name1 = str("\ ".join(scan.split(" ")) + ".mp4")
 convert = "ffmpeg -i " + name1 + " " + name1[:-4] + ".mp3"  
