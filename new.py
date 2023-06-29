@@ -1,7 +1,7 @@
 import pytube
 import os
 from time import sleep
-import sy
+import sys
 #Checking the number of arguments to determine the functionalitys
 if(len(sys.argv) > 1):
     print((sys.argv[1]))
