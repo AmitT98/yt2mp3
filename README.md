@@ -12,6 +12,7 @@ Implementation ideas
 => 3 can be implemented using sounddevice, matplotlib or numpy.
 
 Instructions to use:
+
 0) Install pytube[for download], ffmpeg[for conversion], soundfile and sounddevice[for trimming]
 1) Find the url of the video you want<youtubeurl>.
 2) Decide a name for your file<name>
