@@ -10,7 +10,7 @@ Implementation ideas
 => 1 and 2 can be implemented using Tkinter or Pygame
 => 3 can be implemented using sounddevice, matplotlib or numpy.
 
-Instructions to use:\
+Instructions to use:
 1. Install pytube[for download], ffmpeg[for conversion], soundfile and sounddevice[for trimming]
 2. Find the url of the video you want<youtubeurl>.
 3. Decide a name for your file<name>
