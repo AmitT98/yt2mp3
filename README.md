@@ -12,9 +12,9 @@ Implementation ideas
 
 Instructions to use:
 1. Install pytube[for download], ffmpeg[for conversion], soundfile and sounddevice[for trimming]
-2. Find the url of the video you want<youtubeurl>.
-3. Decide a name for your file<name>
-4. Write the code in terminal as, python3 new.py <youtubeurl> <name>
+2. Find the url of the video you want, youtubeurl
+3. Decide a name for your file, name
+4. Write the code in terminal as, python3 new.py youtubeurl name
 5. To trim the audio, first place it in music folder and then run trim.py
 
 
